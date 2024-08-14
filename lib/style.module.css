@@ -1,0 +1,29 @@
+.drawer_overlay {
+  position: absolute;
+  left: 100%;
+  right: 0%;
+  top: 0;
+  bottom: 0;
+  z-index: 9;
+  display: flex;
+  justify-content: end;
+  transition-property: right, left;
+  transition-duration: 1s;
+  width: 100vw;
+}
+
+.drawer_container {
+  width: 880px;
+  background-color: red;
+  padding: 139px;
+  height: 100%;
+}
+
+.drawer_overlay.show_drawer {
+  right: 100%;
+  left: 0;
+}
+
+*:has(.drawer_overlay) {
+    overflow: hidden;
+}
