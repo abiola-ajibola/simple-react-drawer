@@ -9,3 +9,12 @@
   width: 400px;
   color: #1a1a1a;
 }
+
+.rsd-drawer {
+  background-color: red;
+}
+
+label {
+  width: 40px;
+  display: inline-block;
+}
