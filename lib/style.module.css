@@ -1,29 +1,52 @@
 .drawer_overlay {
+  display: none;
   position: absolute;
-  left: 100%;
+  left: 0%;
   right: 0%;
   top: 0;
   bottom: 0;
   z-index: 9;
-  display: flex;
+  display: none;
   justify-content: end;
-  transition-property: right, left;
-  transition-duration: 1s;
   width: 100vw;
+  background-color: #0000003f;
+}
+
+.drawer_overlay.show_overlay {
+  display: flex;
 }
 
 .drawer_container {
-  width: 880px;
-  background-color: red;
-  padding: 139px;
+  top: 0;
+  max-width: 95vw;
+  background-color: rgb(224, 213, 213);
   height: 100%;
+  position: absolute;
+  transition-delay: 0ms;
+  transition-property: right, left;
+  transition-duration: 1s;
+  transition-timing-function: linear;
 }
 
-.drawer_overlay.show_drawer {
-  right: 100%;
+.drawer_container.right {
+  right: -100%;
+}
+
+.drawer_container.left {
+  left: -100%;
+}
+
+.drawer_container.show_drawer.right {
+  right: 0;
+  left: auto;
+  z-index: 99;
+}
+
+.drawer_container.show_drawer.left {
+  right: auto;
   left: 0;
 }
 
 *:has(.drawer_overlay) {
-    overflow: hidden;
+  overflow: hidden;
 }
