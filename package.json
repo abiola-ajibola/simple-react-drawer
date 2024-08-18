@@ -1,6 +1,7 @@
 {
   "name": "simple-react-drawer",
   "version": "0.0.1",
+  "description": "A simple UI drawer for React apps",
   "type": "module",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -39,5 +40,5 @@
     "vite-plugin-dts": "^4.0.2",
     "vite-plugin-lib-inject-css": "^2.1.1"
   },
-  "license": "UNLICENSED"
+  "license": "MIT"
 }
