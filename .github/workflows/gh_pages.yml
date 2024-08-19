@@ -26,6 +26,9 @@ jobs:
     runs-on: ubuntu-latest
     name: Build the scr folder
     steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
       - name: run build script
         run: yarn build
 
