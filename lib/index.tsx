@@ -35,7 +35,7 @@ export function Drawer({
         ref={contentRef}
         className={`${classnames.drawer_container} ${
           show ? classnames.show_drawer : ""
-        } rsd-drawer_container ${classnames[position]}`}
+        } rsd-drawer ${classnames[position]}`}
       >
         {children}
       </div>

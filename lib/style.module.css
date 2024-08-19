@@ -19,7 +19,7 @@
 .drawer_container {
   top: 0;
   max-width: 95vw;
-  background-color: rgb(224, 213, 213);
+  background-color: white;
   height: 100%;
   position: absolute;
   transition-delay: 0ms;
