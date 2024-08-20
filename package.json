@@ -16,7 +16,9 @@
     "build": "tsc && vite build",
     "build:lib": "tsc --p ./tsconfig.build.json && vite --config './vite.lib.config.ts' build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepublish": "yarn build:lib",
+    "publish": "yarn publish"
   },
   "peerDependencies": {
     "react": ">=16",
