@@ -48,6 +48,11 @@ function App() {
           />{" "}
           <label htmlFor="right">Right</label>
         </div>
+        <p>
+          <a href="https://github.com/abiola-ajibola/simple-react-drawer?tab=readme-ov-file#simple-react-drawer">
+            Readme
+          </a>
+        </p>
       </div>
     </>
   );
