@@ -39,7 +39,7 @@ jobs:
           cache: true
       
       - name: Install dependencies
-        run: yarn ci
+        run: yarn
       
       - name: run build script
         run: yarn build
