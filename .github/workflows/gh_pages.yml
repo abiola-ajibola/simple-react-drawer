@@ -32,8 +32,14 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: install dependencies
-        run: yarn
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: true
+      
+      - name: Install dependencies
+        run: yarn ci
       
       - name: run build script
         run: yarn build
