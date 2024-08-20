@@ -1,12 +1,16 @@
 {
   "name": "simple-react-drawer",
-  "version": "1.0.1-pre.2",
+  "version": "1.0.1-pre.2.1",
   "description": "A simple UI drawer for React apps",
-  "homepage": "https://abiola-ajibola.github.io/simple-react-drawer",
+  "homepage": "https://github.com/abiola-ajibola/simple-react-drawer?tab=readme-ov-file#simple-react-drawer",
+  "readme": "https://github.com/abiola-ajibola/simple-react-drawer?tab=readme-ov-file#simple-react-drawer",
+  "bugs": "https://github.com/abiola-ajibola/simple-react-drawer/issues",
   "type": "module",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "exports": {
     ".": {
       "import": "./dist/index.js"
