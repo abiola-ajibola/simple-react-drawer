@@ -1,6 +1,6 @@
 {
   "name": "simple-react-drawer",
-  "version": "1.0.0",
+  "version": "1.0.1-pre",
   "description": "A simple UI drawer for React apps",
   "homepage": "https://abiola-ajibola.github.io/simple-react-drawer",
   "type": "module",
@@ -17,8 +17,7 @@
     "build:lib": "tsc --p ./tsconfig.build.json && vite --config './vite.lib.config.ts' build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "prepublish": "yarn build:lib",
-    "publish": "yarn publish"
+    "prepublish": "yarn build:lib"
   },
   "peerDependencies": {
     "react": ">=16",
