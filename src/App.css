@@ -18,3 +18,7 @@ label {
   width: 40px;
   display: inline-block;
 }
+
+a {
+  color: #242424;
+}
